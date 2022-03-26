@@ -1,0 +1,221 @@
+.nav-item{
+    font-size: 1.5rem;
+}
+#carouselExampleIndicators{
+    margin-bottom: 50px;
+    margin: auto;
+    
+}
+.oferta{
+    width: 1950px;
+    height: 450px;
+    ;
+}
+.oferta2{
+    width: 1950px;
+    height: 450px;
+}
+#h1-oferta{
+    color: black;
+    font-size: 8ch;
+    margin-bottom: 4%;
+}
+#h2-oferta{
+    margin-bottom: 10%;
+    margin-left: 75%;
+    color: black;
+}
+#h3-oferta{
+    color: black;
+    font-size: 6ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.oferta3{
+    width: 1950px;
+    height: 450px;
+}
+#h1-oferta2{
+    color: red;
+    font-size: 15ch;
+}
+#h2-oferta2{
+    color: red;
+    font-size: 10ch;
+    
+}
+
+#ubi{
+    width: 200px;
+    margin-left: 20%;
+}
+#caja{
+    width: 200px;
+}
+#barra{
+    width: 80px;
+}
+#sobre{
+    width: 125px;
+}
+.precio1{
+    font-size: 2em;
+    color: red;
+    margin-left: 4%;
+    text-align: bottom;
+}
+.productos{
+    margin-left: 15%;
+    width: 300px;
+    border: 1px solid; 
+    color: black;
+}
+.precios{
+    margin-left: 5%;
+    color: red;
+    font-size: 1.5em;   
+}
+.precios2{
+    margin-left: 6.5%;
+    color: red;
+    font-size: 1.5em;   
+}
+#info{
+    font-size: 1.2em;
+}
+.final{
+    color: black;
+    margin-left: 5%;
+    margin-top:10%;
+}
+#fondo{
+    background-color: #7109B1;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .con-footer{
+      background-color: pink;
+      text-align: center;
+  }
+  .form-body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(https://images2.alphacoders.com/261/26102.jpg);
+}
+*{
+    box-sizing: border-box;
+}
+.form-contenedor{
+    width:100%;
+}
+.formulario{
+    background-color: white;
+    margin-top: 150px;
+    padding: 3px;
+}
+#form-h1{
+    text-align: center;
+    color:  black;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: green;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.link:hover{
+    color: green;
+}
+@media(min-width:768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+@media screen and (max-width:1280px) {
+    .oferta{
+        width: 1280px;
+        height: 450px;
+    }
+    .oferta2{
+        width: 1280px;
+        height: 450px;
+    }
+    #h1-oferta2{
+        font-size: 12ch;
+        margin-bottom: 4%;
+    }
+    #h2-oferta2{
+        font-size: 10ch;
+        
+    }
+    #ubi{
+        margin-left: 6%;
+    }
+    .productos{
+        width: 200px;
+    }
+    .precios{
+        margin-left: 4%;
+        font-size: 1.0em;
+    }
+    .precios2{
+        margin-left: 5%;
+        font-size: 1.0em;
+    }
+}
