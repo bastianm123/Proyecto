@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&family=Nerko+One&display=swap');
+
+.nav-item{
+    font-size: 1.5rem;
+}
+#carouselExampleIndicators{
+    margin-bottom: 50px;
+    margin: auto;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-form{
+    background-image: url(https://images2.alphacoders.com/261/26102.jpg);
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.form{
+    background-color: white;
+    width: 90%;
+    max-width: 540px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto;
+
+}
+.form-container{
+    width: 100%;
+    display: grid;
+    gap: 1.2em;
+    grid-auto-columns: 100%;
+}
+.form-title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;    
+}
+.form-input{
+    font-family: inherit;
+    font-size: 1.2rem;
+    padding: .8em 1em;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.2em;
+}
+.form-input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+
+}
+.form-cta{
+    font-family: inherit;
+    font-size: 1.2rem;
+    background-color: green;
+    color: black;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+}
+@media (max-width:450px){
+    .form{
+        padding: 3.5em 1.5em;
+    }
+}
